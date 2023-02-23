@@ -107,12 +107,12 @@ class Ant {
     
     // if hunger = 0, die
     
-    // if hunger = 1.5, fuck
+    // if hunger = 1.5, reproduce
     
     return p;
   }
   
-  Ant fuck() { // the ant fucks itself and reproduces
+  Ant reproduce() { // the ant reproduces
     return new Ant(this.x, this.y, this.range + random(1)-0.5);
   }
 }
